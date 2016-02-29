@@ -1,0 +1,53 @@
+.movie-error{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.movie-legend{
+    font-weight: bold;
+}
+
+.movie-title{
+    text-align: center;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+}
+
+.movie-poster{
+    display: block;
+    margin-left: 20%;
+    margin-bottom: 15px;
+}
+
+.movie-similarity{
+    margin-bottom: 15px;
+    color: blue;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+thead{
+    font-weight: bold;
+}
+
+.comparisons{
+    text-align: center;
+}
+
+.movie-compare-button{
+    margin: 20px;
+}
+
+.drop-shadow {
+    -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+}
+
+body{
+    background-color: #B9BCBF;
+}
+
+.container{
+    background-color: white;
+}

@@ -1,0 +1,14 @@
+<div class="row" ng-show="movieToCompare[0].Title && movieToCompare[1].Title">
+    <div class="col-md-5 col-xs-12"></div>
+    <div class="col-md-2 col-xs-12">
+            <button ng-click="compareMovie()" class="btn btn-default movie-compare-button">Compare!</button>
+    </div>
+    <div class="col-md-5 col-xs-12"></div>
+</div>
+<div class="row" ng-show="similarity">
+    <div class="col-md-5 col-xs-12"></div>
+    <div class="col-md-2 col-xs-12 movie-similarity">
+            <span>Similarity: {{similarity.rate}}%</span>
+    </div>
+    <div class="col-md-5 col-xs-12"></div>
+</div>

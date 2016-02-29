@@ -1,0 +1,33 @@
+<div class="row">
+    <div ng-repeat="movie in movieToCompare track by $index" class="col-md-6 col-xs-12">
+        <div ng-show="movie == 'Error'" class="movie-error">Movie not found!</div>
+        <table ng-show="movie.Title">
+            <thead>
+                <td colspan="2" class="movie-title">{{movie.Title}}</td>
+            </thead>
+            <tr>
+                <td colspan="2"><img src="{{movie.Poster}}" class="movie-poster"></td>
+            </tr>
+            <tr>
+                <td class="movie-legend">Director: </td>
+                <td>{{movie.Director}}</td>
+            </tr>
+            <tr>
+                <td class="movie-legend">Genre: </td>
+                <td>{{movie.Genre}}</td>
+            </tr>
+            <tr>
+                <td class="movie-legend">Actors: </td>
+                <td>{{movie.Actors}}</td>
+            </tr>
+            <tr>
+                <td class="movie-legend">Year: </td>
+                <td>{{movie.Year}}</td>
+            </tr>
+            <tr>
+                <td class="movie-legend">Plot: </td>
+                <td>{{movie.Plot}}</td>
+            </tr>
+        </table>
+    </div>
+</div> 

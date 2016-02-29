@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="md-class-8">
+        <table class="table table-condensed comparisons">
+            <thead>
+                <tr>
+                    <td>Movie 1</td>
+                    <td>Movie 2</td>
+                    <td>Similarity</td>
+                    <td>Comparison time</td>
+                </tr>
+            </thead>
+            <tr ng-repeat="comparison in comparisonList track by $index">
+                <td>{{ comparison.movie1 }}</td>
+                <td>{{ comparison.movie2 }}</td>
+                <td>{{ comparison.comparisonRate }}%</td>
+                <td>{{ comparison.insertionDate | date:'medium'}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
