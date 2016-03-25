@@ -69,7 +69,7 @@ function getIntersectionLength(string1, string2){
     var intersection=[];
     j=0;
     for (var i=0; i < array1.length; ++i){
-        if (array2.indexOf(array1[i]) != -1){
+        if (array2.indexOf(array1[i].trim()) != -1){
             intersection[j++] = array1[i];
         }
     }
